@@ -9,6 +9,7 @@
 
 
 
+
 .header_row> .col-lg-2,.col-lg-3 {
 
     height: 100px;
@@ -172,9 +173,11 @@
 
 
 
+
+
 /* ----------------------mobile version--------- */
 
-@media (max-width: 991px) {
+@media (max-width: 767px) {
 
     .header_row>.col-lg-2,.hero_row>.col-lg-2,.cards_row_top>.side_cards,.cards_row_bottom>.side_cards, .footer_top>.col-lg-1{
 
@@ -183,5 +186,18 @@
     }
 
     
+ }
+
+
+ /* -----------------tablet version --------------- */
+
+ @media (min-width: 768px) and (max-width: 1199px) {
+
+    .header_row>.col-lg-2,.hero_row>.col-lg-2,.cards_row_top>.side_cards,.cards_row_bottom>.side_cards, .footer_top>.col-lg-1{
+
+        display: none;
+        border: 1px solid white;
+    }
+
  }
 
