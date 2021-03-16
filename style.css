@@ -199,5 +199,13 @@
         border: 1px solid white;
     }
 
+    
+    .cards_row_top>.col-lg-1 ,.cards_row_bottom>.col-lg-1{
+
+        display: none;
+    
+    }
+
+
  }
 
