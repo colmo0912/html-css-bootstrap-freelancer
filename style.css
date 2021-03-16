@@ -54,3 +54,22 @@
     background-color: rgb(81, 81, 192);
 }
 
+/* ----cards---- */
+
+.cards_row>  .col-lg-1 {
+
+    height: 200px;
+    background-color: burlywood;
+}
+
+.cards_color {
+
+    background-color: darkorange;
+    height: 200px;
+}
+
+.side_cards {
+
+    background-color: darksalmon;
+    height: 200px;
+}
