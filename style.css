@@ -1,0 +1,21 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header_row> .col-lg-2,.col-lg-3 {
+
+    height: 100px;
+}
+
+.col-lg-2 {
+
+    background-color: aqua;
+}
+
+.col-lg-3 {
+
+    background-color: rgb(162, 0, 255);
+}
