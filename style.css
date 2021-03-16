@@ -37,4 +37,20 @@
 .hero_row> .col-lg-8,.hero_col_2 {
 
     height: 400px;
+    /* border: 1px solid black; */
 }
+
+/* --- line 1 ----- */
+
+.col-lg-4{
+
+    background-color: rgb(0, 128, 11);
+    height: 100px;
+}
+
+.line_1_row {
+
+    height: 100px;
+    background-color: rgb(81, 81, 192);
+}
+
