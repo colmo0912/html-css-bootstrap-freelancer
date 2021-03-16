@@ -12,7 +12,7 @@
     height: 100px;
 }
 
-.col-lg-2 {
+.header_row .col-lg-2 {
 
     background-color: aqua;
 }
@@ -87,7 +87,7 @@
 /* -----About----- */
 
 
-.about_row> .col-lg-2,.col-lg-5 {
+.about_row_top,.about_row_bottom> .col-lg-2,.col-lg-5{
 
     height: 100px;
 }
@@ -95,4 +95,21 @@
 .col-lg-5 {
 
     background-color: deeppink;
+}
+
+.about_row_top .col-lg-2 {
+
+    background-color: dimgray;
+    height: 100px;
+}
+
+.about_row_bottom > .col-lg-2{
+
+    height: 200px;
+    background-color: rgb(34, 71, 139);
+}
+
+.about_row_bottom >.col-lg-4 {
+
+    height: 200px;
 }
