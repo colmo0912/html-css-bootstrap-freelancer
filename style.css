@@ -4,12 +4,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* ----------------------desktop version--------- */
 /* header */
+
 
 
 .header_row> .col-lg-2,.col-lg-3 {
 
     height: 100px;
+    
 }
 
 .header_row .col-lg-2 {
@@ -149,10 +152,10 @@
     height: 150px;
 }
 
-.footer_top > .col-lg-2:nth-child(1), .col-lg-2:nth-child(7){
+/* .footer_top > .col-lg-2:nth-child(1), .col-lg-2:nth-child(7){
 
     background-color: turquoise;
-}
+} */
 
 .footer_bottom {
 
@@ -162,3 +165,23 @@
     color: white;
     line-height: 50px;
 }
+
+
+
+
+
+
+
+/* ----------------------mobile version--------- */
+
+@media (max-width: 991px) {
+
+    .header_row>.col-lg-2,.hero_row>.col-lg-2,.cards_row_top>.side_cards,.cards_row_bottom>.side_cards, .footer_top>.col-lg-1{
+
+        display: none;
+        border: 1px solid white;
+    }
+
+    
+ }
+
