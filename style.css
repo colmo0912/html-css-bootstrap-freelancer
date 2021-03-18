@@ -29,6 +29,12 @@
 
 }
 
+.navbar_mio.navbar-toggle .icon-bar{
+
+    background-color: white;
+    
+}
+
 
 
 
@@ -101,8 +107,12 @@
 
     text-align: center;
     font-size: 30px;
-    
     padding: 10px 0;
+}
+
+.cards .cards_img img {
+
+    border-radius: 30px;
 }
 
 
@@ -263,14 +273,42 @@ form .form_btn {
         font-size: 14px;
     }
 
+    .navbar-right {
+
+        display: none;
+    }
+
+    .navbar-toggle {
+
+        display: block;
+    }
+
+    .icon-bar {
+
+        background-color: white;
+    }
+
+
+
     
     
 }
+/* -----------------tablet version --------------- */
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+
+
+
+
+}
+
 
 
  /* -----------------tablet version --------------- */
 
-@media (min-width: 768px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1199px) {
 
 
 
